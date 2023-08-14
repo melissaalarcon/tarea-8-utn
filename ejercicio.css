@@ -1,0 +1,43 @@
+body{
+    background: rgb(107,105,106);
+    background: radial-gradient(circle, rgba(107,105,106,1) 0%, rgba(30,30,31,1) 100%);
+}
+.navbar{
+    background: rgb(107,105,106);
+    background: radial-gradient(circle, rgb(181, 178, 179) 0%, rgb(84, 84, 87) 100%);
+    position: relative;
+}
+.nav-link{
+    font-family:'Raleway', sans-serif;
+    color: aliceblue;
+}
+.nav-item{
+    font-family:'Raleway', sans-serif;
+}
+.d-flex{
+    font-family: 'Raleway', sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.container{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    padding: 10%;
+}
+.carousel-inner{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.carousel-item{
+    height: 650px;
+    /* poniendo carousel-item trabajo directamente sobre la medida del carousel, sin modificar ni estirar la imagen original */
+}
+h1{
+    padding: 2%;
+}
+.blockquote-footer{
+    color:rgb(204, 207, 209);
+    bottom: 3px;
+}
+cite{
+    color: rgb(204, 207, 209);
+}
