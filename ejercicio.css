@@ -10,34 +10,98 @@ body{
 .nav-link{
     font-family:'Raleway', sans-serif;
     color: aliceblue;
+    font-size: 14px;
 }
 .nav-item{
     font-family:'Raleway', sans-serif;
 }
 .d-flex{
     font-family: 'Raleway', sans-serif;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 14px;
 }
 .container{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: aliceblue;
-    padding: 10%;
+    padding: 15%;
 }
 .carousel-inner{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .carousel-item{
-    height: 650px;
+    height: 700px;
     /* poniendo carousel-item trabajo directamente sobre la medida del carousel, sin modificar ni estirar la imagen original */
 }
 h1{
     padding: 2%;
 }
-.blockquote-footer{
-    color:rgb(204, 207, 209);
-    bottom: 3px;
+    .blockquote-footer{
+        color:rgb(204, 207, 209);
+        bottom: 3px;
+    }
+
+    cite{
+        color: rgb(204, 207, 209);
+    }
+
+.container-formulario{
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    margin: 20px;
 }
-cite{
-    color: rgb(204, 207, 209);
-}
+    .row{
+        border-radius: 6%;
+        margin: 40px;
+        width: fit-content;
+    }
+        .form-check{
+            right: 200px;
+        }
+        .col-md-6{
+            font-size: 14px;
+        }
+        .col-12{
+            font-size: 14px;
+        }
+        h4{
+            margin: 5%;
+        }
+    .demo.juego{
+        list-style-type: none;
+        float: left;
+    }
+        .trending{
+            width:200px;
+            padding:3em 2em 2em 2em;               
+            text-align: center;    
+            transition: all 1s ease;
+            display: inline-block;
+            /* display inline-block es lo que permite poner el li en row */
+            font-size: 13px;
+        }
+        .trenging img{
+            margin:auto;
+            display:block;  
+            transform: scale(0.9);
+            transition: all 0.5s ease;
+            border-radius: 5%;
+        }
+        .trending:hover {
+            background-color: rgba(200,200,200,.5);
+            border-radius: 10px;
+            cursor: pointer;
+        }  
+        .trending:hover img {
+            transform: scale(1);     
+        }  
+        .trending:hover h2 {
+            color:#c9a833;         
+        }
+        h3{
+            font-size: 19px;
+            margin-top: 9%;
+        }
